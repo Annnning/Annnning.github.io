@@ -59,9 +59,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : false # true, false (default)
+search_full_content      : ture # true, false (default)
+search_provider          : ture # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Anning Song"
+  avatar           : /assets/images/avatar.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Love Data design, icon design, an graphic design creator with quirky ideas."
+  location         : "London,United Kindom"
+  email            : aning98012@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,7 +127,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      "https://www.instagram.com/1anny28/" # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -275,6 +275,18 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+ # Collections
+collections:
+  design:
+    output: true
+    permalink: /my-design/:name
+  illustration:
+    output: true
+    permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -290,3 +302,51 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+ # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      
+ # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+ # _design
+  - scope:
+      path: ""
+      type: design
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      show_date: true
+  # _illustration
+  - scope:
+      path: ""
+      type: illustration
+    values:
+      layout: single
+      author_profile: false
+      share: true
+ # _others
+  - scope:
+      path: ""
+      type: others
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      show_date: true
