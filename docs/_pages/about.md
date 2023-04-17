@@ -6,11 +6,11 @@ comments: false
 author_profile: false
 ---
 <br>
-<img src="/Profile.JPG/" width="1224px" class="center">
+<img src="/Profile.JPG/" width="1224px" class="left">
 <br>
-**My cat & I say hi to you**
+**Something to say....**
 <br>
-🐾 Meow Meow Meow Meow Meow.
+Artwork inspired by life.
 <br>
 <br>
 A graphic design creator
