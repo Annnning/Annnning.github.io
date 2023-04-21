@@ -6,7 +6,7 @@ comments: false
 author_profile: false
 ---
 <br>
-<img src="/assets/images/profile.JPG" width="3124px" class="center">
+<img src="/picture. jpg.png" width="3124px" class="center">
 <br>
 **My cat & I say hi to you**
 <br>
