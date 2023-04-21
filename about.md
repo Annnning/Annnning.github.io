@@ -1,12 +1,12 @@
 ---
-title: "Hi ! I'm Zhen🔹"
+title: "Hi ! I'm Anning"
 permalink: /about/
 layout: single
 comments: false
 author_profile: false
 ---
 <br>
-<img src="/assets/images/profile.JPG" width="400px" class="center">
+<img src="/assets/images/profile.JPG" width="3124px" class="center">
 <br>
 **My cat & I say hi to you**
 <br>
