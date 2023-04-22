@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 hidden: false
 header:
-  image: /assets/images/main page.jpg
+  image: /assets/images/Main page.png
 feature_row:
   - image_path: 
     alt: "plasticsheader"
