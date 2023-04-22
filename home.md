@@ -5,7 +5,7 @@ hidden: false
 header:
   image: /assets/main page.jpg
 feature_row:
-  - image_path: /assets/main page.jpg
+  - image_path: 
     alt: "plasticsheader"
     url: "/design/"
     excerpt: "<br>"
